@@ -4,12 +4,15 @@ import './index.css';
 import MovieList from './components/movie-list'
 import reportWebVitals from './reportWebVitals';
 import '../node_modules/bootstrap/dist/css/bootstrap.css'
-import MovieService from './live-coding-OOP'
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <MovieService/>
+  <div>
+  <h1>Rotten Potatoes</h1>
+  <MovieList/>
+  </div>
 );
 
 // If you want to start measuring performance in your app, pass a function
